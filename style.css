@@ -13,3 +13,12 @@
 p {
     color: black;
 }
+
+i {
+    font-size: 30px;
+    color: grey;
+}
+
+.fa-brands {
+    margin: 8px;
+}
