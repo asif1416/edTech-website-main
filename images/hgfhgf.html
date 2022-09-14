@@ -15,36 +15,20 @@
 <body>
     <!-- Nav start -->
     <section class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4 mb-4 border border-primary">
-            <h1 class="display-2 fw-bold">DipShin</h1>
-            <div class="collapse navbar-collapse ">
-                <ul class="navbar-nav ">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inovation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
             </div>
-            <form class="form-inline">
-                <button class="btn btn-outline-primary my-2 me-4 my-sm-0" type="submit">Register</button>
-            </form>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </nav>
 
         <!-- Nav end -->

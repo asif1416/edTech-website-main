@@ -35,4 +35,11 @@ i {
     .carousel-caption p {
         font-size: 10px;
     }
+
+    .card img {
+        width: 100%;
+    }
 }
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) { */
