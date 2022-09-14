@@ -1,4 +1,5 @@
 .carousel-caption {
+
     transform: translateY(-50%);
     bottom: initial;
     top: 50%;
@@ -6,7 +7,6 @@
 
 #carousel-inner-color {
     filter: brightness(50%);
-
 
 }
 
@@ -21,4 +21,18 @@ i {
 
 .fa-brands {
     margin: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption button {
+        font-size: 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
 }
