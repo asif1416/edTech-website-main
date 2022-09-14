@@ -5,13 +5,13 @@
 }
 
 #carousel-inner-color {
-    background-color: gray;
-    opacity: 0.7;
+    filter: brightness(50%);
+
 
 }
 
 p {
-    color: black;
+    color: #F4F4F4;
 }
 
 i {
