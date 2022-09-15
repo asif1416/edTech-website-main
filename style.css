@@ -14,13 +14,21 @@ p {
     color: #777777;
 }
 
-i {
+
+.fa-brands {
+    margin: 8px;
     font-size: 30px;
     color: grey;
 }
 
-.fa-brands {
-    margin: 8px;
+.fa-comments {
+    font-size: 50px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 15px;
+    color: gold;
 }
 
 @media only screen and (max-width: 767px) {
