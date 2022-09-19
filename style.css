@@ -5,6 +5,10 @@
     top: 50%;
 }
 
+.carousel-caption h1 {
+    font-size: 70px;
+}
+
 #carousel-inner-color {
     filter: brightness(50%);
 
